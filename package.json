@@ -1,13 +1,13 @@
 {
-  "homepage": "https://Veer-Raghu.github.io/DemoDeployment",
+  "homepage": "https://Veer-Raghu/github.io/deploy-github",
   "name": "deploy-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
